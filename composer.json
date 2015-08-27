@@ -39,6 +39,8 @@
 		]
 	},
 	"config": {
-		"preferred-install": "dist"
+		"preferred-install": "dist",
+	        "bin-dir": "vendor/bin",
+	        "vendor-dir": "vendor",
 	}
 }
