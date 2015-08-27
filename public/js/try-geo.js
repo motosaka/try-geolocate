@@ -46,5 +46,5 @@ jQuery(function($) {
 
         $('#geo-message').text('位置情報が取得できませんでした ('+message+')');
         return false;
-    });
+    }, {timeout:6000});
 });
