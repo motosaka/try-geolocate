@@ -6,7 +6,7 @@
 <div id="panorama" style="width: 100%; height: 400px; background-color: #EFE;"></div>
 @endsection
 @section('geo_script')
-<script src="//raw.githubusercontent.com/HPNeo/gmaps/master/gmaps.js"></script>
+<script src="/js/gmaps.js"></script>
 <script>
 jQuery(function($) {
     navigator.geolocation.getCurrentPosition(function(pos) {
