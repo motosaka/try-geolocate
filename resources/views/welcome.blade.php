@@ -6,6 +6,7 @@
 
 @endsection
 @section('geo_script')
+<script>
 jQuery(function($) {
     var is_confirmed = $.cookie("geolocate-confirm");
     if (is_confirmed) {
