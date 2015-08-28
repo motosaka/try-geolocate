@@ -6,6 +6,7 @@
 
 @endsection
 @section('geo_script')
+<script>
 jQuery(function($) {
     var is_confirmed = $.cookie("geolocate-confirm");
     if (is_confirmed) {
@@ -35,6 +36,7 @@ jQuery(function($) {
         });
     }
 });
+</script>
 <br/><br/><br/><br/>
 <form>
 <input type="button" onClick="$.removeCookie('geolocate-confirm');" value="(テスト用) クッキー削除">
