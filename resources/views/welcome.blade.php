@@ -36,6 +36,7 @@ jQuery(function($) {
         });
     }
 });
+</script>
 <br/><br/><br/><br/>
 <form>
 <input type="button" onClick="$.removeCookie('geolocate-confirm');" value="(テスト用) クッキー削除">
