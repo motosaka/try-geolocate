@@ -4,6 +4,8 @@
 
 <p id="geo-message" />
 
+<br/><br/>
+<p><a href="/geo">GoogleMapサンプル</a><p>
 @endsection
 @section('geo_script')
 <script>
@@ -30,6 +32,7 @@ jQuery(function($) {
                 type: "success"
             },
             function(){
+                // この順番を逆にすれば時間節約になる
                 $.cookie("geolocate-confirm" , "true", { expires: 7, path: "/" });
                 $.getScript("/js/try-geo.js", function(){});
             });
