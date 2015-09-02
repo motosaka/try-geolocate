@@ -16,6 +16,7 @@ Route::get('/', 'WelcomeController@index');
 Route::get('home', 'HomeController@index');
 
 Route::get('geo', 'GeoController@index');
+Route::get('help', 'HelpController@index');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
