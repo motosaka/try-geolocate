@@ -20,6 +20,7 @@ body.stop-scrolling {
   background-color: white;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   width: 478px;
+  max-height: 100%;
   padding: 17px;
   border-radius: 5px;
   text-align: center;

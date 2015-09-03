@@ -7,8 +7,8 @@
 <br/><br/>
 
 <h1>GoogleMapサンプル</h1>
-<div id="gmap" style="width: 100%; height: 400px; background-color: #EFE;"></div>
-<div id="panorama" style="width: 100%; height: 400px; background-color: #EFE;"></div>
+<div id="gmap" style="width: 80%; height: 200px; background-color: #EFE;"></div>
+<div id="panorama" style="width: 80%; height: 200px; background-color: #EFE;"></div>
 
 <br/><br/><br/><br/>
 <form>
