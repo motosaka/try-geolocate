@@ -7,8 +7,8 @@
 <br/><br/>
 
 <h1>GoogleMapサンプル</h1>
-<div id="gmap" style="width: 80%; height: 200px; background-color: #EFE;"></div>
-<div id="panorama" style="width: 80%; height: 200px; background-color: #EFE;"></div>
+<div id="gmap" style="width: 80%; height: 400px; background-color: #EFE;"></div>
+<div id="panorama" style="width: 80%; height: 400px; background-color: #EFE;"></div>
 
 <br/><br/><br/><br/>
 <form>
@@ -149,7 +149,7 @@ $(function($){
         swal({
             title: "位置情報を取得します",
 	    html: true,
-            text: "本サイトは周辺不動産情報を検索するためデバイスの位置情報を使用いたします。<br/>"
+            text: "本サイトは周辺不動産情報を検索するためデバイスの位置情報を使用いたします。"
 		+ "ご利用にあたり位置情報の取得許可をお願いいたします。<br/>"
 		+ '<span style="font-size: 75%">'
 		+ "※当サイトが位置情報を収集または外部送信することはありません。"
