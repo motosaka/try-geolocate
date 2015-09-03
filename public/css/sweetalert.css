@@ -1,6 +1,6 @@
 body.stop-scrolling {
   height: 100%;
-  overflow: scroll; }
+  overflow: hidden; }
 
 .sweet-overlay {
   background-color: black;
@@ -19,8 +19,8 @@ body.stop-scrolling {
 .sweet-alert {
   background-color: white;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  max-width: 478px;
-  max-height: 100%;
+  width: 80%;
+  max-height: 478px;
   padding: 17px;
   border-radius: 5px;
   text-align: center;
