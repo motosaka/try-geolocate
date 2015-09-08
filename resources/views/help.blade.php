@@ -63,9 +63,6 @@
 	      <span class="glyphicon glyphicon-chevron-down pull-right"></span>
             </a>
             <div id="collapse33" class="collapse">
-              <p class="list-group-item">
-                XXX ダミー
-              </p>
               <img src="/image/xperia-3.png" width="100%" />
             </div>
           </div>
