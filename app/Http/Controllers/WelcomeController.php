@@ -30,7 +30,8 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('welcome');
+		$input = \Request::all();
+		return view('welcome')->with('inputs', $inputs);
 	}
 
 }

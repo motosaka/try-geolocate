@@ -4,6 +4,9 @@
 
 <p id="geo-message"></p>
 
+<pre>{{ var_export($input, true); }}</pre>
+
+
 <br/><br/>
 
 <h1>GoogleMapサンプル</h1>
