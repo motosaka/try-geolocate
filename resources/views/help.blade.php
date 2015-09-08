@@ -69,10 +69,10 @@
 
         <h2 id="reset2">ブラウザで位置情報アクセス設定をクリアする</h2>
         <div class="list-group" id="accordion4">
-          <a data-toggle="collapse" data-parent="#accordion4" href="#collapse31" class="list-group-item">
+          <a data-toggle="collapse" data-parent="#accordion4" href="#collapse41" class="list-group-item">
               (1) 上にある手順を参考に、ブラウザのメニューから「プライバシーとセキュリティ」を開きます。
           </a>
-          <div id="collapse31" class="collapse in">
+          <div id="collapse41" class="collapse">
             <img class="list-group-item" src="/image/xperia-4.png" />
           </div>
         </div>
