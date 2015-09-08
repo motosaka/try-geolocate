@@ -71,19 +71,19 @@
         <h2 id="reset2">設定をリセットするには</h2>
         <p>もし誤って承認ダイアログにて<span style="color: red;">当サイトの位置情報取得を「許可しない」とクリックした場合は、以下の手順で設定をリセット</span>して下さい。</p>
         <div class="list-group" id="accordion4">
-            <a data-toggle="collapse" data-parent="#accordion3" href="#collapse32" class="list-group-item">
+            <a data-toggle="collapse" data-parent="#accordion4" href="#collapse41" class="list-group-item">
               (1) ブラウザのメニューから「設定」を開きます。
 	      <span class="glyphicon glyphicon-chevron-down pull-right"></span>
             </a>
-            <div id="collapse32" class="collapse">
+            <div id="collapse41" class="collapse">
               <img src="/image/xperia-2.png" width="50%" />
             </div>
 
-            <a data-toggle="collapse" data-parent="#accordion4" href="#collapse41" class="list-group-item">
+            <a data-toggle="collapse" data-parent="#accordion4" href="#collapse42" class="list-group-item">
 	      (2) 「プライバシーとセキュリティ」を開き、「位置情報アクセスを削除」をクリックします。
 	      <span class="glyphicon glyphicon-chevron-down pull-right"></span>
             </a>
-            <div id="collapse41" class="collapse">
+            <div id="collapse42" class="collapse">
 	      <p class="list-group-item">
 		ダイアログが出るのでOKを選択して下さい。
 		<img class="list-group-item" src="/image/xperia-4.png" width="100%" />
