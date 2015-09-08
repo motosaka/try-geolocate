@@ -4,9 +4,6 @@
 
 <p id="geo-message"></p>
 
-<pre>{{ var_export($inputs, true) }}</pre>
-
-
 <br/><br/>
 
 <h1>GoogleMapサンプル</h1>
@@ -113,9 +110,15 @@ $(function($){
 	    var caption = '不明なエラー';
 	    var message = '未定義のエラーです。';
 	    var c = error.code;
+	    var test = {{ isset($inputs['test']) ? $inputs['test'] : 0 }} ;
+	    var x = '';
+	    if (test != 0) {
+		c = test;
+		x = '[TEST]';
+	    }
             switch (c) {
               case error.PERMISSION_DENIED:
-                caption = "位置情報の取得が許可されていません",
+                caption = x+"位置情報の取得が許可されていません",
 		message = "お使いのブラウザから承認ダイアログが\n"
 	    	        + "表示されていれば許可してください。\n\n"
 	    	        + "またダイアログが表示されない場合は\n"
@@ -123,12 +126,12 @@ $(function($){
 	    	        + "→ヘルプ：<a href=\"/help\" target=\"_blank\">設定の変更方法</a>\n";
                 break;
               case error.POSITION_UNAVAILABLE:
-                caption = "お客様のデバイスがエラーを報告しています";
+                caption = x+"お客様のデバイスがエラーを報告しています";
 		message = "お客様のデバイスが位置情報を正しく扱えておりません。\n"
 		        + "(デバイスの再起動で改善される可能性があります)";
                 break;
               case error.TIMEOUT:
-                caption = "位置情報の取得中にタイムアウトしました";
+                caption = x+"位置情報の取得中にタイムアウトしました";
 		message = "電波の悪い環境にいるか、位置情報サービスがオフになっている可能性があります。\n"
 		        + "恐れ入りますがシステム設定を確認して下さい。"
 	    	        + "→ヘルプ：<a href=\"/help\" target=\"_blank\">設定の変更方法</a>\n\n"
