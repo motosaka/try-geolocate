@@ -4,7 +4,7 @@
 
 <p id="geo-message"></p>
 
-<pre>{{ var_export($input, true); }}</pre>
+<pre>{{ var_export($inputs, true) }}</pre>
 
 
 <br/><br/>
