@@ -21,6 +21,7 @@
     <div id="myTabContent" class="tab-content">
       <div class="tab-pane fade in active" id="tab1">
 	<p>以下の手順にしたがって位置情報へのアクセスを許可して下さい。<br/>※誤って当サイトを拒否した場合は<a href="#reset">リセット手順</a>を実行して下さい</p>
+        <h2>位置情報サービスを有効にするには</h2>
 	<p id="ios-txt">手順1：設定画面を開いて「プライバシー」→「位置情報サービス」と進んで下さい。</p>
         <input type="button" class="btn btn-primary" id="iosBtn" href="javascript:void()" value="次へ" />
 	<img id="ios-imgs" src="/image/ios8-1.png" width="100%" />
@@ -28,7 +29,7 @@
         <br/>
         <br/>
         <h2>設定をリセットするには</h2>
-        <p>もし誤って承認ダイアログにて<span style="color: red;">当サイトの位置情報取得を「許可しない」とクリックした場合は、以下の設定でリセットを行う</span>必要があります。</p>
+        <p>もし誤って承認ダイアログにて<span style="color: red;">当サイトの位置情報取得を「許可しない」とクリックした場合は、以下の手順で設定をリセット</span>して下さい。</p>
         <h3 id="reset">リセット手順</h3>
         <p>設定画面から「一般」「リセット」「位置情報とプライバシーをリセット」を選択し「設定をリセット」をクリックして下さい。
         <br/>※パスコードロックを設定している場合はパスコード入力画面が出ます</p>
@@ -38,7 +39,7 @@
 	<p>アンドロイドでは端末の設定とブラウザの設定との２箇所で位置情報へのアクセスを許可して下さい。
 	  <br/>※誤って当サイトを拒否した場合は<a href="#reset2">リセット手順</a>を実行して下さい</p>
 
-        <h2>位置情報サービスを有効にする</h2>
+        <h2>位置情報サービスを有効にするには</h2>
         <div class="list-group" id="accordion3">
           <a data-toggle="collapse" data-parent="#accordion3" href="#collapse31" class="list-group-item">
               (1) システム設定画面から「位置情報サービス」を開きます。
@@ -55,7 +56,7 @@
 	      <span class="glyphicon glyphicon-chevron-down pull-right"></span>
             </a>
             <div id="collapse32" class="collapse">
-              <img class="list-group-item" src="/image/xperia-2.png" width="50%" />
+              <img src="/image/xperia-2.png" width="50%" />
             </div>
  
             <a data-toggle="collapse" data-parent="#accordion3" href="#collapse33" class="list-group-item">
@@ -67,15 +68,27 @@
             </div>
           </div>
 
-        <h2 id="reset2">ブラウザで位置情報アクセス設定をクリアする</h2>
+        <h2 id="reset2">設定をリセットするには</h2>
+        <p>もし誤って承認ダイアログにて<span style="color: red;">当サイトの位置情報取得を「許可しない」とクリックした場合は、以下の手順で設定をリセット</span>して下さい。</p>
         <div class="list-group" id="accordion4">
-          <a data-toggle="collapse" data-parent="#accordion4" href="#collapse41" class="list-group-item">
-              (1) 上にある手順を参考に、ブラウザのメニューから「プライバシーとセキュリティ」を開きます。
+            <a data-toggle="collapse" data-parent="#accordion3" href="#collapse32" class="list-group-item">
+              (1) ブラウザのメニューから「設定」を開きます。
 	      <span class="glyphicon glyphicon-chevron-down pull-right"></span>
-          </a>
-          <div id="collapse41" class="collapse">
-            <img class="list-group-item" src="/image/xperia-4.png" width="100%" />
-          </div>
+            </a>
+            <div id="collapse32" class="collapse">
+              <img src="/image/xperia-2.png" width="50%" />
+            </div>
+
+            <a data-toggle="collapse" data-parent="#accordion4" href="#collapse41" class="list-group-item">
+	      (2) 「プライバシーとセキュリティ」を開き、「位置情報アクセスを削除」をクリックします。
+	      <span class="glyphicon glyphicon-chevron-down pull-right"></span>
+            </a>
+            <div id="collapse41" class="collapse">
+	      <p class="list-group-item">
+		ダイアログが出るのでOKを選択して下さい。
+		<img class="list-group-item" src="/image/xperia-4.png" width="100%" />
+	      </p>
+            </div>
         </div>
 
       </div><!-- end of android -->
