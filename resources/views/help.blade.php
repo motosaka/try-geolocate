@@ -47,7 +47,7 @@
             <div id="collapse31" class="collapse in">
               <p class="list-group-item">
 		「Google位置情報サービス」と「GPS機能」を有効にして下さい。
-                <img src="/image/xperia-1.png" />
+                <img src="/image/xperia-1.png" width="100%" />
               </p>
             </div>
             <a data-toggle="collapse" data-parent="#accordion3" href="#collapse32" class="list-group-item">
@@ -55,7 +55,7 @@
 	      <span class="glyphicon glyphicon-chevron-down pull-right"></span>
             </a>
             <div id="collapse32" class="collapse">
-              <img class="list-group-item" src="/image/xperia-2.png" />
+              <img class="list-group-item" src="/image/xperia-2.png" width="50%" />
             </div>
  
             <a data-toggle="collapse" data-parent="#accordion3" href="#collapse33" class="list-group-item">
@@ -66,7 +66,7 @@
               <p class="list-group-item">
                 XXX ダミー
               </p>
-              <img src="/image/xperia-3.png" />
+              <img src="/image/xperia-3.png" width="100%" />
             </div>
           </div>
 
@@ -77,7 +77,7 @@
 	      <span class="glyphicon glyphicon-chevron-down pull-right"></span>
           </a>
           <div id="collapse41" class="collapse">
-            <img class="list-group-item" src="/image/xperia-4.png" />
+            <img class="list-group-item" src="/image/xperia-4.png" width="100%" />
           </div>
         </div>
 
