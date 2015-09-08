@@ -86,7 +86,7 @@
             <div id="collapse42" class="collapse">
 	      <p class="list-group-item">
 		ダイアログが出るのでOKを選択して下さい。
-		<img class="list-group-item" src="/image/xperia-4.png" width="100%" />
+		<img src="/image/xperia-4.png" width="100%" />
 	      </p>
             </div>
         </div>
