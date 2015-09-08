@@ -112,7 +112,7 @@ $(function($){
 	    var c = error.code;
             switch (c) {
               case error.PERMISSION_DENIED:
-                caption = "位置情報の取得が\n許可されていません",
+                caption = "位置情報の取得が許可されていません",
 		message = "お使いのブラウザから承認ダイアログが\n"
 	    	        + "表示されていれば許可してください。\n\n"
 	    	        + "またダイアログが表示されない場合は\n"
@@ -120,14 +120,16 @@ $(function($){
 	    	        + "→ヘルプ：<a href=\"/help\" target=\"_blank\">設定の変更方法</a>\n";
                 break;
               case error.POSITION_UNAVAILABLE:
-                caption = "お客様のデバイスが\nエラーを報告しています";
+                caption = "お客様のデバイスがエラーを報告しています";
 		message = "お客様のデバイスが位置情報を正しく扱えておりません。\n"
 		        + "(デバイスの再起動で改善される可能性があります)";
                 break;
               case error.TIMEOUT:
-                caption = "位置情報の取得中に\nタイムアウトしました";
-		message = "電波の悪い環境にいると予想されます。\n"
-		        + "恐れ入りますが場所を移動されるか\n時間を置いて再度お試し下さい。";
+                caption = "位置情報の取得中にタイムアウトしました";
+		message = "電波の悪い環境にいるか、位置情報サービスがオフになっている可能性があります。\n"
+		        + "恐れ入りますがシステム設定を確認して下さい。"
+	    	        + "→ヘルプ：<a href=\"/help\" target=\"_blank\">設定の変更方法</a>\n\n"
+		        + "または場所を移動されるか時間を置いて再度お試し下さい。\n";
                 break;
             }
             $('#geo-message').text('位置情報が取得できませんでした ('+error.message+')');
