@@ -42,6 +42,7 @@
         <div class="list-group" id="accordion3">
           <a data-toggle="collapse" data-parent="#accordion3" href="#collapse31" class="list-group-item">
               (1) システム設定画面から「位置情報サービス」を開きます。
+	      <span class="glyphicon glyphicon-chevron-down pull-right"></span>
           </a>
             <div id="collapse31" class="collapse in">
               <p class="list-group-item">
@@ -51,6 +52,7 @@
             </div>
             <a data-toggle="collapse" data-parent="#accordion3" href="#collapse32" class="list-group-item">
               (2) ブラウザのメニューから「設定」を開きます。
+	      <span class="glyphicon glyphicon-chevron-down pull-right"></span>
             </a>
             <div id="collapse32" class="collapse">
               <img class="list-group-item" src="/image/xperia-2.png" />
@@ -58,6 +60,7 @@
  
             <a data-toggle="collapse" data-parent="#accordion3" href="#collapse33" class="list-group-item">
               (3) 「プライバシーとセキュリティ」を開き、「位置情報を有効にする」にチェックを入れて下さい。
+	      <span class="glyphicon glyphicon-chevron-down pull-right"></span>
             </a>
             <div id="collapse33" class="collapse">
               <p class="list-group-item">
@@ -71,6 +74,7 @@
         <div class="list-group" id="accordion4">
           <a data-toggle="collapse" data-parent="#accordion4" href="#collapse41" class="list-group-item">
               (1) 上にある手順を参考に、ブラウザのメニューから「プライバシーとセキュリティ」を開きます。
+	      <span class="glyphicon glyphicon-chevron-down pull-right"></span>
           </a>
           <div id="collapse41" class="collapse">
             <img class="list-group-item" src="/image/xperia-4.png" />
