@@ -35,8 +35,49 @@
         <img src="/image/ios8-4.png" width="100%" />
       </div>
       <div class="tab-pane fade" id="tab2">
-	<p>アンドロイド用は準備中……</p>
-      </div>
+	<p>アンドロイドでは端末の設定とブラウザの設定との２箇所で位置情報へのアクセスを許可して下さい。
+	  <br/>※誤って当サイトを拒否した場合は<a href="#reset2">リセット手順</a>を実行して下さい</p>
+
+        <h2>位置情報サービスを有効にする</h2>
+        <div class="list-group" id="accordion3">
+          <a data-toggle="collapse" data-parent="#accordion3" href="#collapse31" class="list-group-item">
+              (1) システム設定画面から「位置情報サービス」を開きます。
+          </a>
+            <div id="collapse31" class="collapse in">
+              <p class="list-group-item">
+		「Google位置情報サービス」と「GPS機能」を有効にして下さい。
+                <img src="/image/xperia-1.png" />
+              </p>
+            </div>
+            <a data-toggle="collapse" data-parent="#accordion3" href="#collapse32" class="list-group-item">
+              (2) ブラウザのメニューから「設定」を開きます。
+            </a>
+            <div id="collapse32" class="collapse">
+              <img class="list-group-item" src="/image/xperia-2.png" />
+            </div>
+ 
+            <a data-toggle="collapse" data-parent="#accordion3" href="#collapse33" class="list-group-item">
+              (3) 「プライバシーとセキュリティ」を開き、「位置情報を有効にする」にチェックを入れて下さい。
+            </a>
+            <div id="collapse33" class="collapse">
+              <p class="list-group-item">
+                XXX ダミー
+              </p>
+              <img src="/image/xperia-3.png" />
+            </div>
+          </div>
+
+        <h2 id="reset2">ブラウザで位置情報アクセス設定をクリアする</h2>
+        <div class="list-group" id="accordion3">
+          <a data-toggle="collapse" data-parent="#accordion3" href="#collapse31" class="list-group-item">
+              (1) 上にある手順を参考に、ブラウザのメニューから「プライバシーとセキュリティ」を開きます。
+          </a>
+          <div id="collapse31" class="collapse in">
+            <img class="list-group-item" src="/image/xperia-4.png" />
+          </div>
+        </div>
+
+      </div><!-- end of android -->
     </div>
   </div>
 

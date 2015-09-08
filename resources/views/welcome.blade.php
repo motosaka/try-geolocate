@@ -160,7 +160,8 @@ $(function($){
             showCancelButton: true,
             confirmButtonColor: "#6BD5BD",
             confirmButtonText: "取得する",
-            cancelButtonText: "取得しない"
+            cancelButtonText: "取得しない",
+	    showLoaderOnConfirm: true //簡易プログレス
         },
         function(){
 	    $.cookie("geolocate-confirm" , "true", { expires: 7, path: "/" });
