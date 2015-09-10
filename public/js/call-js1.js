@@ -6,13 +6,13 @@ $.getScript("/js/gmaps.js");
 $(function($){
 
     var queries = (function(){
-	var s = location.search.replace("?", ""),
-        query = {},
-        queries = search.split("&"),
+	var s = location.search.replace("?", "");
+	if(!s) return null;
+        var query = {},
+        queries = s.split("&"),
         i = 0;
-  	if(!s) return null;
-        for(i; i < queries.length; i ++) {
-            var t = queries.split("=");
+        for(i; i < queries.length; i++) {
+            var t = queries[i].split("=");
             query[t[0]] = t[1];
 	}
 	return query;
