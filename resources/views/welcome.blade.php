@@ -12,7 +12,7 @@
 
 <br/><br/><br/><br/>
 <form>
-<input type="text" name="timeout" value="{{ $inputs['timeout'] }}">
+<input type="text" name="timeout" value="{{ $inputs['timeout'] or '' }}">
 <input type="button" onClick="$.removeCookie('geolocate-confirm');" value="(テスト用) クッキー削除">
 </form>
 @endsection
