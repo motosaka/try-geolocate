@@ -24,8 +24,8 @@ $(function($){
     }
 
     var timeout_msec = 15000;
-    var to_val = {{ $inputs['timeout'] or 0 }} ;
-    if (to_val != 0) {
+    var to_val = $("input#to_inputbox").val();
+    if (to_val.length != 0) {
 	if (to_val == parseFloat(to_val) && isFinite(to_val)) {
 	    if (to_val > 0 && to_val < 600) { // 10分以上は非現実的
 		timeout_msec = parseInt(to_val * 1000);
