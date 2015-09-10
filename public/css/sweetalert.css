@@ -21,17 +21,31 @@ body.stop-scrolling {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   max-width: 478px;
   max-height: 100%;
-  padding: 1px;
+  padding: 17px;
   border-radius: 5px;
   text-align: center;
   position: fixed;
   left: 50%;
   top: 50%;
-  margin-left: -128px;
-  margin-top: -100px;
+  margin-left: -256px;
+  margin-top: -200px;
   overflow: hidden;
   display: none;
   z-index: 99999; }
+  @media all and (max-height: 320px) {
+    .sweet-alert {
+      height: auto;
+      margin: 0;
+      top: 0; /* 上にピッチリつける */
+      left: 15px;
+      right: 15px; } }
+  @media all and (max-width: 320px) {
+    .sweet-alert {
+      width: auto;
+      margin: 0;
+      top: 0;
+      left: 10px;
+      right: 10px; } }
   @media all and (max-width: 540px) {
     .sweet-alert {
       width: auto;
