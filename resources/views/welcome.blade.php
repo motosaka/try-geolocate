@@ -17,7 +17,7 @@
 </form>
 @endsection
 @section('geo_script')
-<script src="/js/gmaps.js"></script>
+<script async src="/js/gmaps.js"></script>
 <script>
 $(function($){
 
