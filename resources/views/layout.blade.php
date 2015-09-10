@@ -16,10 +16,10 @@
 	<script async src="/js/sweetalert.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="/css/sweetalert.css">
 
-  <script async src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script async src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
   <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <script async src="//maps.google.com/maps/api/js?sensor=true"></script>
+  <script src="//maps.google.com/maps/api/js?sensor=true"></script>
   @yield('geo_script')
 </html>
 {{--
