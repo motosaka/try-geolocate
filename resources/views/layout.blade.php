@@ -10,7 +10,6 @@
   <div class="container">
     @yield('content')
   </div>
-</body>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<script async src="/js/sweetalert.min.js"></script>
@@ -21,6 +20,7 @@
   <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="//maps.google.com/maps/api/js?sensor=true"></script>
   @yield('geo_script')
+</body>
 </html>
 {{--
 Local Variables:

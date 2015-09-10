@@ -9,6 +9,7 @@
 <h1>GoogleMapサンプル</h1>
 <div id="gmap" style="width: 80%; height: 400px; background-color: #EFE;"></div>
 <div id="panorama" style="width: 80%; height: 400px; background-color: #EFE;"></div>
+<div id="dummy" style="height: 800px;"></div>
 
 <br/><br/><br/><br/>
 <form>
