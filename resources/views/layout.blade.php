@@ -6,14 +6,15 @@
 	<meta name="viewport" content="initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<!-- css <link href="{{{asset('/assets/css/***.css')}}}" rel="stylesheet"> -->
-
-	<script src="/js/sweetalert.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="/css/sweetalert.css">
 </head>
 <body>
   <div class="container">
     @yield('content')
   </div>
+</body>
+
+	<script src="/js/sweetalert.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/sweetalert.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
@@ -21,7 +22,6 @@
 
   <script src="//maps.google.com/maps/api/js?sensor=true"></script>
   @yield('geo_script')
-</body>
 </html>
 {{--
 Local Variables:
