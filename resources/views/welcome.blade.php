@@ -51,7 +51,7 @@ $(function($){
         $('#geo-message').text('位置情報を取得します...');
 
 	var timeout_msec = 15000;
-	var to_val = {{ isset($inputs['timeout']) ? $inputs['timeout'] : 0 }} ;
+	var to_val = {{ $inputs['timeout'] or 0 }} ;
 	if (to_val != 0) {
 	    if (to_val == parseFloat(to_val) && isFinite(to_val)) {
 		if (to_val > 0 && to_val < 600) { // 10分以上は非現実的
@@ -174,7 +174,7 @@ $(function($){
             text: "本サイトは周辺不動産情報を検索するためデバイスの位置情報を使用します。"
 		+ "ご利用にあたり位置情報の取得許可をお願いいたします。<br/>"
 		+ "※当サイトが位置情報を収集または外部送信することはありません。"
-                + "またアンテナ等の状況により取得には最大15秒かかることがあります。"
+                + "またアンテナ等の状況により取得には最大15秒かかることがあります。",
             type: "warning",
             closeOnConfirm: false, //エラー表示のため
             showCancelButton: true,
