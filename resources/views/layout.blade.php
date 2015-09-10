@@ -5,20 +5,29 @@
 	<title>位置情報の取得サンプル</title>
 	<meta name="viewport" content="initial-scale=1.0">
 	<!-- css <link href="{{{asset('/assets/css/***.css')}}}" rel="stylesheet"> -->
+
+<style type="text/css">
+    html, body {
+        height: 100%;
+        margin: 0px;
+    }
+    #fullcon {
+        height: 100%;
+    }
+</style>
 </head>
 <body>
-  <div class="container">
+  <div id="fullcon" class="container">
     @yield('content')
   </div>
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<script async src="/js/sweetalert.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="/css/sweetalert.css">
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-  <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="//maps.google.com/maps/api/js?sensor=true"></script>
+  <script src="/js/sweetalert.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/sweetalert.css">
   @yield('geo_script')
 </body>
 </html>

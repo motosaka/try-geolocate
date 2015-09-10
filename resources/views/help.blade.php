@@ -4,12 +4,13 @@
 	<meta charset="UTF-8">
 	<title>位置情報の取得サンプル</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </head>
 
 <body>
   <div class="container">
     <h1>設定ヘルプ：位置情報を許可する</h1>
+    <p>以下の手順は、システム設定と標準ブラウザでの手順になります。
+      <br/>標準以外のブラウザにおいて位置情報を許可する設定については、各ブラウザのマニュアルをご覧ください。</p>
 
     <!--タブ-->
     <ul class="nav nav-tabs">
@@ -95,10 +96,10 @@
     </div>
   </div>
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
 
 <script>
 $(function($){
