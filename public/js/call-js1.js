@@ -5,6 +5,22 @@ $.getScript("/js/sweetalert.min.js");
 $.getScript("/js/gmaps.js");
 $(function($){
 
+    var queries = (function(){
+	var s = location.search.replace("?", ""),
+        query = {},
+        queries = search.split("&"),
+        i = 0;
+  	if(!s) return null;
+        for(i; i < queries.length; i ++) {
+            var t = queries.split("=");
+            query[t[0]] = t[1];
+	}
+	return query;
+    })();
+    $.queryParameter = function(key,defval) {
+	return (queries == null ? defval : queries[key] ? queries[key] : defval);
+    };
+
     var obj_dump = function (obj) {
 	var txt = '';
 	for (var one in obj){
@@ -104,7 +120,7 @@ $(function($){
 	    var caption = '不明なエラー';
 	    var message = '未定義のエラーです。';
 	    var c = error.code;
-	    var test = {{ isset($inputs['test']) ? $inputs['test'] : 0 }} ;
+	    var test = $.queryParameter("test", 0);
 	    var x = '';
 	    if (test != 0) {
 		c = test;
