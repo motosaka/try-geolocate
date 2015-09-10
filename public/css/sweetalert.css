@@ -36,14 +36,12 @@ body.stop-scrolling {
     .sweet-alert {
       height: auto;
       margin: 0;
-      top: 0; /* 上にピッチリつける */
       left: 15px;
       right: 15px; } }
   @media all and (max-width: 320px) {
     .sweet-alert {
       width: auto;
       margin: 0;
-      top: 0;
       left: 10px;
       right: 10px; } }
   @media all and (max-width: 540px) {
