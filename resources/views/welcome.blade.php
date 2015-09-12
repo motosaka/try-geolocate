@@ -21,6 +21,8 @@
 </form>
 @endsection
 @section('geo_script')
+<script src="//maps.google.com/maps/api/js?sensor=true"></script>
+<script src="/js/gmaps.js"></script>
 <script src="/js/call-js1.js"></script>
 @endsection
 {{--

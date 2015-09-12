@@ -1,7 +1,5 @@
 $(function($){
     // 最低限jQueryは事前に呼んでること
-    $.getScript("//maps.google.com/maps/api/js?sensor=true");
-    $.getScript("/js/gmaps.js");
 
     var queries = (function(){
 	var s = location.search.replace("?", "");
