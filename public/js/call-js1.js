@@ -163,11 +163,17 @@ $(function($){
     var is_confirmed = $.cookie("geolocate-confirm");
     var init_mode = 0;
     var init_mode_val = $("input#init_inputbox").val();
-    if (init_mode_val == "1") {
+    if (init_mode_val == "noconfirm") {
 	init_mode = 1;
     }
+    else if (init_mode_val == "confirm") {
+	init_mode = 2;
+    }
+    else {
+	return true; // 位置情報を取得しない
+    }
 
-    if (is_confirmed || init_mode == 0) {
+    if (is_confirmed || init_mode == 1) {
 	geoGet(false);
     }
     else {
