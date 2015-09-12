@@ -162,7 +162,7 @@ $(function($){
     // ----------------------------------------------------------------
     var is_confirmed = $.cookie("geolocate-confirm");
     var init_mode = 0;
-    var init_mode_val = $("input#to_inputbox").val();
+    var init_mode_val = $("input#init_mode").val();
     if (init_mode_val == "1") {
 	init_mode = 1;
     }
