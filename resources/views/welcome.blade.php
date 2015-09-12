@@ -13,6 +13,7 @@
 <br/><br/><br/><br/>
 <form>
 <input id="to_inputbox" type="text" name="timeout" value="{{ $inputs['timeout'] or '' }}">
+<input id="init_inputbox" type="text" name="init_mode" value="{{ $inputs['init_mode'] or '' }}">
 <input type="button" onClick="$.removeCookie('geolocate-confirm');" value="(テスト用) クッキー削除">
 </form>
 @endsection
