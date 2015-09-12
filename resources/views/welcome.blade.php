@@ -21,7 +21,7 @@
 </form>
 @endsection
 @section('geo_script')
-<script async src="/js/call-js1.js"></script>
+<script src="/js/call-js1.js"></script>
 @endsection
 {{--
 Local Variables:
