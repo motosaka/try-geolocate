@@ -167,8 +167,11 @@ $(function($){
     else if (init_mode_val == "confirm") {
 	init_mode = 2;
     }
-    else {
+    else if (init_mode_val == "noop") {
 	return true; // 位置情報を取得しない
+    }
+    else {
+	init_mode = 2; // default = confirm
     }
 
     if (is_confirmed || init_mode == 1) {
